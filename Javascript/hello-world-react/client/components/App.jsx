@@ -281,29 +281,29 @@ export default class App extends React.Component {
           type="text"
           className="input"
           onChange={this.handleUserInput} /><br/>
-        <button onClick={this.handleSqrt} className="buttonsTop">sqrt</button>
-        <button onClick={this.handlePower} className="buttonsTop">^2</button>
-        <button onClick={this.handleInversion} className="buttonsTop">1/x</button><br/>
-        <button onClick={this.handleClearEntry} className="buttons">CE</button>
-        <button onClick={this.handleClear} className="buttons">C</button>
-        <button onClick={this.handleBack} className="buttons">Back</button>
-        <button onClick={this.handleDivision} className="buttons">/</button><br/>
-        <button onClick={this.handleClick} value="7" className="buttons">7</button>
-        <button onClick={this.handleClick} value="8" className="buttons">8</button>
-        <button onClick={this.handleClick} value="9" className="buttons">9</button>
-        <button onClick={this.handleMultiplication} className="buttons">*</button> <br/>
-        <button onClick={this.handleClick} value="4" className="buttons">4</button>
-        <button onClick={this.handleClick} value="5" className="buttons">5</button>
-        <button onClick={this.handleClick} value="6" className="buttons">6</button>
-        <button onClick={this.handleSubtract} className="buttons">-</button><br/>
-        <button onClick={this.handleClick} value="1" className="buttons">1</button>
-        <button onClick={this.handleClick} value="2" className="buttons">2</button>
-        <button onClick={this.handleClick} value="3" className="buttons">3</button>
-        <button onClick={this.handleAdd} className="buttons">+</button><br/>
-        <button onClick={this.handleNeg} className="buttons">neg</button>
-        <button onClick={this.handleClick} value="0" className="buttons">0</button>
-        <button onClick={this.handleClick} value="." className="buttons">.</button>
-        <button onClick={this.handleEquals} className="buttons">=</button>
+        <button id='sqrt' onClick={this.handleSqrt} className="buttonsTop">sqrt</button>
+        <button id='^2' onClick={this.handlePower} className="buttonsTop">^2</button>
+        <button id='1/x' onClick={this.handleInversion} className="buttonsTop">1/x</button><br/>
+        <button id='CE' onClick={this.handleClearEntry} className="buttons">CE</button>
+        <button id='clear' onClick={this.handleClear} className="buttons">C</button>
+        <button id='back' onClick={this.handleBack} className="buttons">Back</button>
+        <button id='divide' onClick={this.handleDivision} className="buttons">/</button><br/>
+        <button id='7' onClick={this.handleClick} value="7" className="buttons">7</button>
+        <button id='8' onClick={this.handleClick} value="8" className="buttons">8</button>
+        <button id='9' onClick={this.handleClick} value="9" className="buttons">9</button>
+        <button id='multiply' onClick={this.handleMultiplication} className="buttons">*</button> <br/>
+        <button id='4' onClick={this.handleClick} value="4" className="buttons">4</button>
+        <button id='5' onClick={this.handleClick} value="5" className="buttons">5</button>
+        <button id='6' onClick={this.handleClick} value="6" className="buttons">6</button>
+        <button id='minus' onClick={this.handleSubtract} className="buttons">-</button><br/>
+        <button id='1' onClick={this.handleClick} value="1" className="buttons">1</button>
+        <button id='2' onClick={this.handleClick} value="2" className="buttons">2</button>
+        <button id='3' onClick={this.handleClick} value="3" className="buttons">3</button>
+        <button id='add' onClick={this.handleAdd} className="buttons">+</button><br/>
+        <button id='negate' onClick={this.handleNeg} className="buttons">neg</button>
+        <button id='0' onClick={this.handleClick} value="0" className="buttons">0</button>
+        <button id='decimal' onClick={this.handleClick} value="." className="buttons">.</button>
+        <button id='equals' onClick={this.handleEquals} className="buttons">=</button>
       </div>);
   }
 }

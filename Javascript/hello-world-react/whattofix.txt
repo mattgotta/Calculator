@@ -2,6 +2,8 @@ ToFix
 - Compile into output.js
 - Press "=" when subtracting repeatedly, adds number after below 0
 - should be able to press "=" and repeat last function
+- can type multiple decimals (again)
+-
 
 FixD
 x Type text
