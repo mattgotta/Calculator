@@ -1,0 +1,18 @@
+ToFix
+- Compile into output.js
+- Press "=" when subtracting repeatedly, adds number after below 0
+- should be able to press "=" and repeat last function
+- can type multiple decimals (again)
+-
+
+FixD
+x Type text
+x Decimal when input is "0" removes "0"
+x Unlimited decimals
+x can run "blank * number" = NaN
+x "back" on ".9" returns "0" rather than "0."
+x can't run same operation multiple times (2/3/3/3/3=)
+x if hit multiply, then divide input switches when it shouldn't
+x "back" after "equals" gives error
+x Can type "0123..."
+x Can delete all numbers from input box w/ backspace

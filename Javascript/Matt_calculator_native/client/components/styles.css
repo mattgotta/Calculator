@@ -1,0 +1,110 @@
+body {
+  background-color: #ABABAB;
+}
+
+.calc {
+  border: 1px solid lightblue;
+  margin:auto;
+  background-color: #FFFFFF;
+  max-width: 300px;
+  max-height: 500px;
+}
+
+.title {
+  margin:0px;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-family: Helvetica;
+  font-size: 12px;
+}
+
+.back {
+  background-color: #FFFFFF;
+  margin:0px;
+  color:#ABABAB;
+  text-align: right;
+  height: 5px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.display {
+  margin:0px;
+  background-color: #FFFFFF;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.buttons {
+  width: 25%;
+  height: 25%;
+  border:none;
+  shadow: none;
+  border-radius: 0px;
+  background-color: #E3E3E3;
+  color: #000000;
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: 100;
+  padding: 13px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: default;
+}
+
+.buttons:hover {
+  background: #D4D4D4;
+  text-decoration: none;
+}
+
+.buttons:active {
+  box-sizing: border-box;
+  background-color: #ABABAB;
+  box-shadow: 0px 0px 0px 2px #E3E3E3 inset;
+}
+
+.buttons:focus {
+  outline: 0;
+}
+
+.buttonsTop {
+  width: 33.333333%;
+  height: 25%;
+  border:none;
+  shadow: none;
+  border-radius: 0px;
+  background-color: #E3E3E3;
+  color: #000000;
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: 100;
+  padding: 13px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: default;
+}
+
+.buttonsTop:hover {
+  background: #D4D4D4;
+  text-decoration: none;
+}
+
+.buttonsTop:active {
+  box-sizing: border-box;
+  background-color: #ABABAB;
+  box-shadow: 0px 0px 0px 2px #E3E3E3 inset;
+}
+
+.buttonsTop:focus {
+  outline: 0;
+}
+
+.input {
+    border: 5px solid white;
+
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+
+    text-align: right;
+}
